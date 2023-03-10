@@ -1,0 +1,21 @@
+<head>
+	<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+</head>
+<body>
+  <div id="menu">
+    <nav>
+      <button onclick="loadContent('ajout.php'); return false;">nouveau déplacement</button>
+      <button onclick="loadContent('date.php'); return false;">affichage avec choix de dates</button>
+      <button onclick="loadContent('deplacement-annee.php'); return false;">affichage choix année</button>
+      <button onclick="loadContent('deplacement.php'); return false;">affichage de tous</button>
+    </nav>
+  </div>
+  <iframe src="acceuil.html" id="contenu"></iframe>
+  <script>
+    function loadContent(url) {
+      document.getElementById('contenu').src = url;
+    }
+  </script>
+</body>
+
