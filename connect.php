@@ -1,9 +1,9 @@
 <?php
 // Informations d'identification MySQL
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'Coralie@1985');
-define('DB_NAME', 'deplacement');
+define('DB_USERNAME', 'xxxx');
+define('DB_PASSWORD', 'xxxxxxxxxx');
+define('DB_NAME', 'xxxxxx');
 
 // Tentative de connexion à la base de données MySQL
 $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
